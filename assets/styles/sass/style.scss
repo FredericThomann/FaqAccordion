@@ -18,12 +18,10 @@ html {
 }
 
 body {
-  background: var(--lightPink) url('../../images/background-pattern-desktop.svg') center top no-repeat;/*
-  background: url('../../../design/desktop-design.jpg') center top no-repeat;*/
+  background: var(--lightPink) url('../../images/background-pattern-desktop.svg') center top no-repeat;
 
   @media (max-width: 400px) {
-    background: var(--lightPink) url('../../images/background-pattern-mobile.svg') center top no-repeat;/*
-    background: url('../../../design/mobile-design.jpg') center top no-repeat;*/
+    background: var(--lightPink) url('../../images/background-pattern-mobile.svg') center top no-repeat;
   }
 }
 
@@ -31,8 +29,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 900px;/*
-  opacity: 0.4;*/
+  min-height: 900px;
 
   @media (max-width: 400px) {
     min-height: 812px;
