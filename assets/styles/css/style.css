@@ -18,13 +18,11 @@ html {
 }
 
 body {
-  background: var(--lightPink) url("../../images/background-pattern-desktop.svg") center top no-repeat; /*
-background: url('../../../design/desktop-design.jpg') center top no-repeat;*/
+  background: var(--lightPink) url("../../images/background-pattern-desktop.svg") center top no-repeat;
 }
 @media (max-width: 400px) {
   body {
-    background: var(--lightPink) url("../../images/background-pattern-mobile.svg") center top no-repeat; /*
-background: url('../../../design/mobile-design.jpg') center top no-repeat;*/
+    background: var(--lightPink) url("../../images/background-pattern-mobile.svg") center top no-repeat;
   }
 }
 
@@ -32,8 +30,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 900px; /*
-opacity: 0.4;*/
+  min-height: 900px;
 }
 @media (max-width: 400px) {
   main {
@@ -47,6 +44,7 @@ main .container {
   margin: 24px;
   padding: 40px;
   padding-bottom: 17px;
+  box-shadow: hsl(292, 16%, 49%, 0.2) 0px 10px 46px 0px;
 }
 @media (max-width: 400px) {
   main .container {
