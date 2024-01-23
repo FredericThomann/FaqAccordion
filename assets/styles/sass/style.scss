@@ -42,6 +42,7 @@ main {
     margin: 24px;
     padding: 40px;
     padding-bottom: 17px;
+    box-shadow: hsl(292, 16%, 49%, 0.2) 0px 10px 46px 0px;
 
     @media (max-width: 400px) {
       padding: 22px;
