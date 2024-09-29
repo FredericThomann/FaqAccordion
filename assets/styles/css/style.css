@@ -44,7 +44,7 @@ main .container {
   margin: 24px;
   padding: 40px;
   padding-bottom: 17px;
-  box-shadow: hsl(292, 16%, 49%, 0.2) 0px 10px 46px 0px;
+  box-shadow: hsla(292, 16%, 49%, 0.2) 0px 10px 46px 0px;
 }
 @media (max-width: 400px) {
   main .container {
@@ -85,7 +85,7 @@ main .accordionItem .question {
   margin: 22px 0 22px;
   cursor: pointer;
 }
-main .accordionItem .question h3 {
+main .accordionItem .question h2 {
   font-size: 18px;
   font-weight: 600;
   color: var(--darkPurple);
@@ -99,7 +99,7 @@ main .accordionItem .question .image {
 main .accordionItem .question.open .image {
   background: url("../../images/icon-minus.svg") center no-repeat;
 }
-main .accordionItem .question:hover h3 {
+main .accordionItem .question:hover h2 {
   color: var(--grayishPurple);
 }
 @media (max-width: 400px) {
@@ -107,14 +107,14 @@ main .accordionItem .question:hover h3 {
     gap: 42px;
     margin: 19px 0 19px;
   }
-  main .accordionItem .question h3 {
+  main .accordionItem .question h2 {
     font-size: 16px;
   }
 }
 main .accordionItem:last-child .question {
   padding-bottom: 0;
 }
-main .accordionItem:last-child .answer p {
+main .accordionItem:last-child .answer {
   padding-top: 22px;
 }
 main .accordionItem .answer {
